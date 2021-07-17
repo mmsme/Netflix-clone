@@ -1,0 +1,134 @@
+<div id="side-bar">
+  <!-- ----------------------------- brand logo ------------------------------ -->
+  <div class="custom-container">
+    <div class="brand pt-5 pb-4 text-white">
+      <span>Netflix</span>
+      <span>.</span>
+    </div>
+  </div>
+  <!-- ----------------------------------------------------------------------- -->
+
+  <!-- -------------------------------- menu --------------------------------- -->
+  <div class="menu">
+    <div class="side-bar-title custom-container text-white-50 mb-3">Menu</div>
+    <div class="list-group">
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 0"
+        (click)="selectedIndex = 0"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/compass.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Browse</span>
+        </div>
+      </a>
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 1"
+        (click)="selectedIndex = 1"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/heart.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Watchlist</span>
+        </div>
+      </a>
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 2"
+        (click)="selectedIndex = 2"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/calendar.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Coming soon</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- ----------------------------------------------------------------------- -->
+
+  <!-- -------------------------------- social --------------------------------- -->
+  <div class="scoial mt-5">
+    <div class="side-bar-title custom-container text-white-50 mb-3">Social</div>
+    <div class="list-group">
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 4"
+        (click)="selectedIndex = 4"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/user.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Friends</span>
+        </div>
+      </a>
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 5"
+        (click)="selectedIndex = 5"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/group.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Parties</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- ----------------------------------------------------------------------- -->
+
+  <!-- ------------------------------ general ------------------------------- -->
+  <div class="scoial mt-5">
+    <div class="side-bar-title custom-container text-white-50 mb-3">
+      General
+    </div>
+    <div class="list-group">
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 6"
+        (click)="selectedIndex = 6"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/settings.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Settings</span>
+        </div>
+      </a>
+      <a
+        href="#"
+        class="list-group-item list-group-item-action"
+        [class.list-group-item-active]="selectedIndex == 7"
+        (click)="selectedIndex = 7"
+      >
+        <div class="custom-container item d-flex align-items-center">
+          <svg-icon
+            src="assets/svg/icons/logout.svg"
+            [svgStyle]="{ width: 20, height: 20 }"
+          ></svg-icon>
+          <span>Logout</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- ----------------------------------------------------------------------- -->
+</div>

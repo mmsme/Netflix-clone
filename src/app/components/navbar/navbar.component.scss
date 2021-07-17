@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #222328;
+}
+
+.arrow-btn {
+  cursor: pointer;
+}
+
+.input-group {
+  background-color: transparent !important;
+}
+
+.input-group button {
+  border: 2px solid #626470;
+  background-color: transparent;
+  border-color: #626470;
+  color: #626470;
+}
+
+.input-group button:focus {
+  box-shadow: none;
+}
+
+.input-group-prepend button {
+  border-radius: 0;
+
+  border-start-start-radius: 15px;
+  border-end-start-radius: 15px;
+  border-right: 0;
+}
+
+.input-group-append button {
+  border-radius: 0;
+  border-start-end-radius: 15px;
+  border-end-end-radius: 15px;
+  border-left: 0;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 2px solid #626470;
+  border-left: 0;
+  border-right: 0;
+  color: white;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
